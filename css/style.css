@@ -1,0 +1,150 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #2d2d43;
+}
+
+.container{
+
+    display:grid;
+    grid-template-rows: 28em 30em 30em 30em;
+    grid-template-columns: 30%  90%;
+    justify-content: center;
+
+}
+
+.grid-column{
+    padding: 10px 10px 10px 30px;
+}
+
+.one {
+    background: #283593;
+}
+.two {
+
+
+}
+
+.three {
+    background:#283593;
+}
+
+.four {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 6em;
+    background: #f8f9fa;
+}
+.five {
+    background: #283593;
+}
+
+.education {
+    padding-left: 6em;
+}
+
+.seven {
+    background: linear-gradient(to bottom, #283593, #292f8c, #2a2a85, #2a247e, #2a1e77);
+}
+
+.portfolio{
+    font-size: 20px;
+    background:  #f8f9fa;
+    
+}
+/**************** FONT ****************/
+
+h1{
+    text-align: start;
+}
+
+.title-cv{
+    text-align:center;
+}
+
+p{
+    text-align: start;
+}
+
+i{
+    color: gold;
+}
+
+span{
+    font-weight: bold;
+    color: #00b894;
+    text-transform: uppercase;
+}
+/************** PROFIL ******************/
+.profile{
+    padding-left: 4em;
+
+}
+
+.image {
+    background:gold;
+    width: 10em;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 3px 3px rgba(0,0,0, 0.4);
+    padding-left: 3em;
+   
+}
+
+.flexi{
+    justify-content:space-between;
+    display:flex;
+}
+.img-portfolio{
+    
+    width: 20em;
+
+}
+
+.ps{
+    color: white !important;
+}
+
+li{
+    padding: 1em 0em;
+
+}
+
+.p-grid{
+    order: 1;
+}
+
+/************ FONT AWESOME ************/
+.fas{
+    order: 2;
+    margin-top: 4px;
+    grid-column: 2;
+
+}
+
+.fa-earlybirds{
+    color: gray;
+}
+
+.fa-icon{
+    padding-top: 7px;
+}
+.fa-cross{
+    color: red;
+}
+
+.fa-cocktail{
+    color: #1D1644;
+}
+
+.fa-code{
+    color: black;
+}
